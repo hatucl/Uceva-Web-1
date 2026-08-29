@@ -1,0 +1,23 @@
+.contenedor {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+.encabezado {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenido {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        width: 100%;
+        padding: 10px;
+    }
+}
