@@ -1,0 +1,14 @@
+p {
+    color: #333333;
+    font-size: 16px;
+}
+
+.destacado {
+    color: #d9534f;
+    font-size: 20px;
+}
+
+#titulo-principal {
+    color: #0275d8;
+    font-size: 32px;
+}
