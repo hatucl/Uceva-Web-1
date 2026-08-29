@@ -1,0 +1,48 @@
+.menu a {
+    color: #333333;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+    color: #ffffff;
+    background-color: #e74c3c; 
+}
+
+
+.lista li {
+    padding: 8px;
+    transition: background-color 0.2s;
+}
+
+.lista li:hover {
+    background-color: #d4efdf;
+    cursor: pointer;
+}
+
+.formulario input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formulario input:focus {
+    border-color: #3498db;
+    outline: none;
+    background-color: #eaf2f8; 
+}
+
+
+.lista li:first-child {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.lista li:nth-child(even) {
+    background-color: #f2f2f2; 
+}
