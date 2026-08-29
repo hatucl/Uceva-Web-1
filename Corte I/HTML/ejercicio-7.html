@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 7 - Formulario Avanzado</title>
+</head>
+<body>
+    <h1>Inscripción Universitaria</h1>
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" min="15" max="100"><br><br>
+
+        <label for="fecha_nac">Fecha de nacimiento:</label><br>
+        <input type="date" id="fecha_nac" name="fecha_nac"><br><br>
+
+        <label for="carrera">Carrera:</label><br>
+        <select id="carrera" name="carrera">
+            <option value="sistemas">Ingeniería de Sistemas</option>
+            <option value="industrial">Ingeniería Industrial</option>
+            <option value="electronica">Ingeniería Electrónica</option>
+        </select><br><br>
+
+        <label>Género:</label><br>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="otro" name="genero" value="otro">
+        <label for="otro">Otro</label><br><br>
+
+        <label>Habilidades:</label><br>
+        <input type="checkbox" id="html" name="habilidades" value="html">
+        <label for="html">HTML/CSS</label>
+        <input type="checkbox" id="logic" name="habilidades" value="logic">
+        <label for="logic">Lógica de Programación</label>
+        <input type="checkbox" id="db" name="habilidades" value="db">
+        <label for="db">Bases de Datos</label><br><br>
+
+        <label for="foto">Foto de perfil:</label><br>
+        <input type="file" id="foto" name="foto"><br><br>
+
+        <label for="comentarios">Comentarios opcionales:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Enviar Inscripción</button>
+        <p>Como nota para el profesor a este punto se me habia olvidado mencionarle pero como mi compañero se quedo sin cable para cargar el computador el me esta ayudando desde una aplicacion del celular y luego yo lo pongo en el codigo, por eso todos los commits son mios, gracias por leer y entender profe</p>
+    </form>
+</body>
+</html>
