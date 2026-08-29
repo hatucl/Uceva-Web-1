@@ -1,0 +1,21 @@
+.bloque {
+    display: block;
+    background-color: #ffadad;
+    margin: 5px 0;
+}
+
+.oculto {
+    display: none;
+}
+
+.enlinea {
+    display: inline;
+    background-color: #ffd6a5;
+}
+
+.bloque-enlinea {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    background-color: #caffbf;
+}
