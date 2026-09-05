@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NerdsBlog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><strong>NerdsBlog</strong></li>
+        </ul>
+
+        <ul>
+            <li><a href="#catalogo">Catálogo</a></li>
+            <li><a href="#favoritos">Favoritos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Catalogo de Videojuegos</h2>
+            <p>Descubre los mejores videojuegos del mercado!!!</p>
+    </header>
+
+    <main>
+        <section id="catalogo">
+            <h2>Juegos Jugados</h2>
+            <div class="contenedor1">
+                <article>
+                    <h3>Hollow Knight</h3>
+                    <p>Un juego de increible dificultad indie!</p>
+                    <a href="https://store.steampowered.com/app/367520/Hollow_Knight/" target="_blank">
+                        <img src="https://i.pinimg.com/originals/09/1f/63/091f63cc12fb2c2b4922fdfb0b27c97b.jpg?nii=t"
+                            alt="Hollow Knight" class="sombra-img">
+                    </a>
+                    <p style="text-align: right;"><strong>Horas jugadas:</strong> 312h</p>
+                    <p style="text-align: right;"><strong>Precio:</strong> $37.500 COP</p>
+                    <p style="text-align: right;"><strong>Juego platinado!</strong>: 63/63 logros</p>
+                </article>
+                <article>
+                    <h3>Elden Ring</h3>
+                    <p>Un juego tipo souls, uno de los mas complicados de la epoca!</p>
+                    <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank">
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.jZK_lUYNIjvM9VlNYu9xdQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                            alt="Elden Ring" class="sombra-img">
+                    </a>
+                    <p style="text-align: right;"><strong>Horas jugadas:</strong> 744h</p>
+                    <p style="text-align: right;"><strong>Precio:</strong> $201.900 COP</p>
+                    <p style="text-align: right;"><strong>Juego Incompleto:</strong> 38/42 logros</p>
+                </article>
+                <article>
+                    <h3>Bloodborne</h3>
+                    <p>Uno de los juegos mas revolucionarios por su estilo!!!</p>
+                    <a href="https://www.playstation.com/es-es/games/bloodborne/" target="_blank">
+                        <img src="bloodborne.jpg" alt="Bloodborne" class="sombra-img">
+                    </a>
+                    <p style="text-align: right;"><strong>Horas jugadas:</strong> 435h</p>
+                    <p style="text-align: right;"><strong>Precio:</strong> $126.960 COP</p>
+                    <p style="text-align: right;"><strong>Juego Incompleto:</strong> 25/34 logros</p>
+                </article>
+            </div>
+            <button>Ver más</button>
+        </section>
+
+        <section id="favoritos">
+            <h2>Juegos Favoritos</h2>
+            <div class="contenedor2">
+                <article>
+                    <a href="https://www.minecraft.net/es-es" target="_blank">
+                        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/02/minecraft-key-art-feature.jpg"
+                            alt="Minecraft" class="sombra-img">
+                    </a>
+                    <h3>Minecraft</h3>
+                    <p>Un juego de construccion y supervivencia, uno de los mas jugados del mundo!</p>
+                </article>
+                <article>
+                    <a href="https://playvalorant.com/es-mx/" target="_blank">
+                        <img src="https://wallpaper.forfun.com/fetch/34/34fcf4edbca5e75d4d31967a6b49373e.jpeg?w=2200"
+                            alt="Valorant" class="sombra-img">
+                    </a>
+                    <h3>Valorant</h3>
+                    <p>Un juego de disparos en primera persona con habilidades especiales!</p>
+                </article>
+                <article>
+                    <a href="https://www.leagueoflegends.com/es-es/" target="_blank">
+                        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/drx-caitlyn.jpg"
+                            alt="League of Legends" class="sombra-img">
+                    </a>
+                    <h3>League of Legends</h3>
+                    <p>Un juego de estrategia y trabajo en equipo, uno de los mas populares del mundo!</p>
+                </article>
+
+                <button>></button>
+            </div>
+
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Estamos muy agradecidos que utilices nuestra pagina para organizar tus juegos!, si tienes alguna
+                sugerencia o problema, no dudes en contactarnos.</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+    </main>
+
+    <footer>
+        <small>&copy; 2026 Catálogo de Videojuegos. Todos los derechos reservados. Diseñado por Julian Giraldo</small>
+    </footer>
+</body>
+
+</html>
