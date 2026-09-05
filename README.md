@@ -1,0 +1,1 @@
+Profe que pena con usted que le quede mal con los commits llevo toda la noche haciendo commits y terminando el trabajo y cuando fui a revisar me toco subirl todo desde el github desktop, no se que paso, si quiere puedo volver a hacer el taller todo pero me parece muuy raro que no se guardara los commits que hice
